@@ -1,0 +1,117 @@
+# Day 1 – Git & GitHub Basics
+
+## 🎯 Objective
+Today I started my DevOps journey by learning the fundamentals of **Git** and **GitHub**.
+
+---
+
+# 📚 What I Learned
+
+## 1. What is Git?
+
+Git is a **Distributed Version Control System (VCS)** used to:
+
+- Track changes in source code.
+- Maintain project history.
+- Restore previous versions.
+- Collaborate with multiple developers.
+
+Git is primarily used through the **Command Line Interface (CLI)**.
+
+---
+
+## 2. What is GitHub?
+
+GitHub is a **cloud-based platform** that hosts Git repositories.
+
+It helps developers:
+
+- Store code remotely.
+- Collaborate with teams.
+- Review code through Pull Requests.
+- Manage software projects.
+
+---
+
+## 3. Git vs GitHub
+
+| Git | GitHub |
+|------|---------|
+| Version Control System | Cloud-based Platform |
+| Installed on local machine | Hosted online |
+| Tracks code changes | Hosts Git repositories |
+| CLI-based | Web GUI |
+
+---
+
+## 4. Why Version Control?
+
+### Without Version Control
+
+- Deleted files may be permanently lost.
+- Team members may overwrite each other's work.
+- No history of changes.
+- Difficult to revert mistakes.
+
+### With Git
+
+- Track every change.
+- Restore previous versions.
+- View commit history.
+- Collaborate safely with teams.
+
+---
+
+# 💻 Git Commands Practiced
+
+| Command | Purpose |
+|---------|----------|
+| `git init` | Initialize a new Git repository |
+| `git status` | Show the status of tracked and untracked files |
+| `git add <filename>` | Stage a specific file |
+| `git add .` | Stage all modified files |
+| `git commit -m "message"` | Save a snapshot of staged changes |
+| `git restore <filename>` | Restore changes made to a tracked file |
+| `git rm --cached <filename>` | Remove a file from Git tracking while keeping it locally |
+| `git remote add origin <repository-url>` | Connect the local repository to GitHub |
+| `git push origin main` | Push commits to the remote repository |
+
+---
+
+# 🔐 Authentication
+
+Today I learned about **Personal Access Tokens (PATs).**
+
+GitHub no longer supports password authentication over HTTPS. Instead, developers use PATs for secure authentication.
+
+Example:
+
+```bash
+git remote set-url origin https://<TOKEN>@github.com/username/repository.git
+```
+
+> **Note:** Although embedding a PAT in the URL works, it is more secure to use **Git Credential Manager** or **SSH keys** so your token is not stored in the remote URL.
+
+---
+
+# ✅ Key Takeaways
+
+- Git and GitHub are different tools that work together.
+- Version control helps developers track and manage code changes.
+- GitHub enables remote code hosting and collaboration.
+- Commits create checkpoints in project history.
+- Personal Access Tokens (PATs) provide secure authentication.
+
+---
+
+# 📌 What's Next?
+
+- Git Branching
+- Git Merge
+- Git Log
+- Git Diff
+- Git Clone
+
+---
+
+**Status:** ✅ Day 1 Completed
