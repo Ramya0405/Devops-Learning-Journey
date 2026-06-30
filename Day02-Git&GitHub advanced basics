@@ -1,8 +1,5 @@
 # Day 2 – Git & GitHub Advanced Basics
 
-## 📅 Date
-
-30 June 2026
 
 ## 🎯 Objective
 
@@ -25,37 +22,17 @@ A **Fork** creates a copy of another person's GitHub repository into your own Gi
 ---
 
 ## 2. Clone
-
 A **Clone** creates a local copy of a GitHub repository on your computer.
-
 ### Command
-
-```bash
 git clone <repository-url>
-```
-
----
 
 ## 3. Push
-
 Uploads local commits to the remote GitHub repository.
-
-```bash
 git push origin main
-```
-
----
 
 ## 4. Pull
-
 Downloads and merges the latest changes from the remote repository into the local repository.
-
-```bash
 git pull origin main
-```
-
----
-
 # Branching
 
 Branches allow developers to work on new features independently without affecting the main branch.
@@ -67,16 +44,9 @@ git branch feature-login
 ```
 
 ## Switch Branch
-
-```bash
 git switch feature-login
-```
-
 or
-
-```bash
 git checkout feature-login
-```
 
 ## Merge Branches
 
