@@ -1,0 +1,123 @@
+# Day 2 – Git & GitHub Advanced Basics
+
+## 📅 Date
+
+30 June 2026
+
+## 🎯 Objective
+
+Understand how developers collaborate efficiently using Git branches, remote repositories, and Git Hooks.
+
+---
+
+# Topics Covered
+
+## 1. Fork
+
+A **Fork** creates a copy of another person's GitHub repository into your own GitHub account.
+
+### Why use Fork?
+
+* Contribute to open-source projects.
+* Experiment without affecting the original repository.
+* Maintain your own version of a project.
+
+---
+
+## 2. Clone
+
+A **Clone** creates a local copy of a GitHub repository on your computer.
+
+### Command
+
+```bash
+git clone <repository-url>
+```
+
+---
+
+## 3. Push
+
+Uploads local commits to the remote GitHub repository.
+
+```bash
+git push origin main
+```
+
+---
+
+## 4. Pull
+
+Downloads and merges the latest changes from the remote repository into the local repository.
+
+```bash
+git pull origin main
+```
+
+---
+
+# Branching
+
+Branches allow developers to work on new features independently without affecting the main branch.
+
+## Create a Branch
+
+```bash
+git branch feature-login
+```
+
+## Switch Branch
+
+```bash
+git switch feature-login
+```
+
+or
+
+```bash
+git checkout feature-login
+```
+
+## Merge Branches
+
+After completing development, branches can be merged into another branch (for example, `main`) to combine the changes.
+
+---
+
+# Git Hooks ⭐
+
+Git Hooks are scripts that run automatically before or after specific Git events.
+
+Examples include:
+
+* Running automated tests
+* Checking code formatting
+* Linting the project
+* Preventing commits that don't meet quality standards
+
+Git Hooks help automate repetitive tasks and improve code quality by catching issues earlier in the development workflow.
+
+---
+
+# HEAD
+
+HEAD is a pointer that references the latest commit of the currently checked-out branch.
+
+Whenever you switch branches, HEAD moves to point to the latest commit of that branch.
+
+---
+
+# Key Takeaways
+
+* Learned the difference between Fork and Clone.
+* Practiced Push and Pull operations.
+* Understood why branching is important.
+* Learned how to create, switch, and merge branches.
+* Explored Git Hooks and how they automate development workflows.
+* Understood the role of HEAD in Git.
+
+---
+
+## Day 2 Complete ✅
+
+Small steps every day lead to big achievements. Looking forward to exploring more DevOps concepts tomorrow!
