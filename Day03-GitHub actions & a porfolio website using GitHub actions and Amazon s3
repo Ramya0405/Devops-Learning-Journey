@@ -1,0 +1,58 @@
+# Day 03 – GitHub Actions, CI/CD & Amazon S3 Deployment
+
+## Objective
+
+Learn GitHub Actions and automate the deployment of a static website to Amazon S3.
+
+## What I Learned
+
+### GitHub Actions
+
+GitHub Actions is GitHub's built-in automation and CI/CD platform. It allows developers to automate tasks such as building, testing, and deploying applications whenever specific events occur, like pushing code to a repository.
+
+### CI/CD
+
+* **Continuous Integration (CI):** Automatically builds and validates code whenever changes are pushed.
+* **Continuous Deployment (CD):** Automatically deploys the latest version of the application after successful validation.
+
+### Project
+
+Built a **static portfolio website** using:
+
+* HTML
+* CSS
+* JavaScript
+
+Configured **GitHub Actions** to automatically deploy the website to an **Amazon S3 Static Website Hosting** bucket whenever code is pushed to GitHub.
+
+## Deployment Workflow
+
+1. Develop the website locally.
+2. Push the code to GitHub.
+3. GitHub Actions workflow is triggered automatically.
+4. The workflow uploads the website files to the Amazon S3 bucket.
+5. The latest version of the website becomes available online.
+
+## Live Website
+
+http://tws-ramyaa.s3-website.us-east-2.amazonaws.com/
+
+## Self Reflection
+
+I also took a mock interview on Git and GitHub using ChatGPT.
+
+Although I answered many questions correctly, I realized I need to improve my explanations and communication. My goal is to explain concepts more clearly and confidently in future interviews.
+
+## Learning Source
+
+TrainWithShubham
+
+## Key Takeaways
+
+* Understood the fundamentals of GitHub Actions.
+* Learned the basics of CI/CD pipelines.
+* Automated website deployment using GitHub Actions.
+* Deployed a static website on Amazon S3.
+* Identified communication skills as an area for improvement during technical interviews.
+
+Looking forward to learning more advanced DevOps automation in the coming days.
